@@ -1,0 +1,125 @@
+{
+  "加入": {
+    "task": "join",
+    "args": {
+      "model": "random",
+       "pool": "random",
+      "short_dance": "random"
+    }
+  },
+  "美女": {
+    "task": "model_dance",
+    "args": {
+      "girl_model": "random",
+      "short_dance": "default"
+    }
+  },
+  "帅哥": {
+    "task": "model_dance",
+    "args": {
+      "boy_model": "random",
+      "short_dance": "default"
+    }
+  },
+  "变大": {
+    "task": "pool_scale",
+    "args": {
+      "pool": "default",
+      "scale": "1.5"
+    }
+  },
+  "变小": {
+    "task": "pool_scale",
+    "args": {
+      "pool": "default",
+      "scale": "0.8"
+    }
+  },
+  "换舞": {
+    "task": "model_dance",
+    "args": {
+      "boy_model": "default",
+      "short_dance": "random"
+    }
+  },
+  "移动": {
+    "task": "pool_scale",
+    "args": {
+      "pool": "default",
+      "scale": "default"
+    }
+  },
+  "去红队": {
+    "task": "pool_scale",
+    "args": {
+      "pool": "1",
+      "scale": "default"
+    }
+  },
+  "去蓝队": {
+    "task": "pool_scale",
+    "args": {
+      "pool": "2",
+      "scale": "default"
+    }
+  },
+  "礼物": {
+    "task": "gift",
+    "args": {
+      "name": "user",
+      "num": "user",
+      "price": "user"
+    }
+  },
+  "换人": {
+    "task": "model_dance",
+    "args": {
+      "model": "random",
+      "short_dance": "default"
+    }
+  },
+  "给镜头": {
+    "task": "shot_me"
+  },
+  "发言": {
+    "task": "call"
+  },
+  "一起喊": {
+    "task": "call_all",
+    "args": {
+      "msg": "user"
+    }
+  },
+  "一起跳": {
+    "task": "dance_all",
+    "args": {
+      "short_dance": "random"
+    }
+  },
+  "领舞": {
+    "task": "lead",
+    "args": {
+      "long_dance": "default",
+      "media": "random",
+      "camera_motion": "default"
+    }
+  },
+  "斗舞": {
+    "task": "battle",
+    "args": {
+      "target_id": "user",
+      "long_dance": "random",
+      "media": "random",
+      "camera_motion": "default"
+    }
+  },
+  "合舞": {
+    "task": "dance_2gh",
+    "args": {
+      "target_id": "user",
+      "long_dance": "random",
+      "media": "random",
+      "camera_motion": "default"
+    }
+  }
+}

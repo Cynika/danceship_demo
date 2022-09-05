@@ -1,0 +1,23 @@
+[
+    {
+        "uid": 123456,
+        "nickname": "test",
+        "active_time": 1651070527000,
+        "sc": 0,
+        "gender": "None"
+    },
+    {
+        "uid": 3089593,
+        "nickname": "cynika",
+        "active_time": 1651070527000,
+        "sc": 0,
+        "gender": "None"
+    },
+    {
+        "uid": 1820819267,
+        "nickname": 1820819267,
+        "active_time": "2022-03-09 15:55:00",
+        "sc": 1,
+        "gender": "None"
+    }
+]

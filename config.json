@@ -1,0 +1,12 @@
+{
+  "receipt": "配置文件",
+  "date": "2022-03-09",
+  "logger_name": "main",
+  "log_file": "log.txt",
+  "server_address": "127.0.0.1",
+  "port": 9000,
+  "douyin_room_id": 63168376612,
+  "user_data_dir": "data/",
+  "default_dir": "default/",
+  "media_dir": "G:\\ship\\ue\\test2\\"
+}
